@@ -5,23 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lasagna</title>
+    <link href="/CSS/Stylesheet.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Lazy Lasagna</h1>
-    <img src="/recipes/img/Lazy-Lasagna.jpg" alt="Lazy-Lasagna" width="300">
-    <h3>Description</h3>
-    <p>This <strong> Lazy Lasagna</strong> recipe serves us both a shortcut weeknight dinner and an easy entertaining hack. Cheesy and delicious, no one will know you pulled this together in 5 minutes with 3 store-bought ingredients. I’m hesitant to even share this recipe, because I don’t want you to know how easy this was if you come to my house for dinner.</p>
-    <h3>Ingredients</h3>
-    <ul>
+    <header>
+        <!--navbar section-->
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="/index.html" id="navbar-logo">Odin Recipes</a>
+    <ul class="navbar-menu">
+        <li class="navbar-item"><a class="link-item" id="lasagna" href="/recipes/lasagna.html">Lasagna</a></li>
+        <li class="navbar-item"><a class="link-item" id="burger" href="/recipes/burger.html">Burger</a></li>
+        <li class="navbar-item"><a class="link-item" id="iceCream" href="/recipes/iceCream.html">Ice Cream</a></li>
+    </ul>
+           </div>
+        </nav>
+    </header>
+
+     <!--body section-->
+     <div class="body-container">
+    <h1 class="title">Lazy Lasagna</h1>
+    <img  class="image" src="/recipes/img/Lasagna3.jpeg" alt="Lazy-Lasagna" width="500" >
+    <br>
+    <h3 class="description">Description</h3>
+    <p class="paragraph">This <strong> Lazy Lasagna</strong> recipe serves us both a shortcut weeknight dinner and an easy entertaining hack. Cheesy and delicious, no one will know you pulled this together in 5 minutes with 3 store-bought ingredients. I’m hesitant to even share this recipe, because I don’t want you to know how easy this was if you come to my house for dinner.</p>
+    <h3 class="ingredients">Ingredients</h3>
+    <ul class="list">
         <li>1 lb store-bought ravioli</li>
         <li>750 mL jarred marinara sauce</li>
         <li>3 cups grated mozzarella cheese</li>
     </ul>
-    <h3>Steps</h3>
-    <ol>
+    <h3 class="steps">Steps</h3>
+    <ol class="list">
         <li>Preheat oven to 450ºF.</li>
         <li>Spread 1/2 cup of the marinara sauce in a 9×13″ baking dish. Top with a handful of cheese, then a layer of ravioli. Place ravioli side by side without any big gaps. Top with a cup of sauce and another handful of cheese. Repeat with another layer of ravioli and sauce, and finish with remaining mozzarella.</li>
         <li>Cover with foil and bake for 30 minutes, then uncover and continue baking until cheese is golden and bubbly and internal temp reaches 165ºF, 10-15 minutes more.</li>
-    </ol>
+    </ol> 
+    <br>
+    <br>
+    </div>
 </body>
 </html>

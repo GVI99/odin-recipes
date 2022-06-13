@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background: #B6cec7;
+}
+.navbar-container{
+    height: 80px;
+    background: #B6cec7;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0 50px;
+}
+.navbar-menu{
+    list-style: none;
+    align-items: center;
+    display: flex;
+}  
+#navbar-logo{
+    font-family: 'Lucida Handwriting', cursive;
+    margin: 20px;
+    font-size: 35px;
+    text-decoration: none;
+    display:flex ;
+}
+.link-item{
+    text-decoration: none;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #7269A6;
+}
+.navbar-item :hover{
+    color: blue;
+    transition: all 0.3s ease;
+}
+.navbar-item{
+    padding: 10px;
+}
+.title{
+    text-align: center;
+    padding: 25px 0;
+}
+.image{
+    padding: 0 500px;
+    width: 500px;
+}
+.image-cat{
+    width: 700px;
+    margin: 50px 350px;
+}
+.body-container{
+  margin: auto 18px;
+}
+.description, .ingredients, .steps{
+    padding: 10px;
+    font-size: 20px;
+}
+.paragraph {
+    font-size: 17px;
+}
+.list{
+    font-size: 17px;
+}

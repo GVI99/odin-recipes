@@ -5,13 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <link href="/CSS/Stylesheet.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="/recipes/lasagna.html">Lasagna</a></li>
-        <li><a href="/recipes/burger.html"></a>Burger</li>
-        <li><a href="/recipes/IceCream.html">Ice Cream</a></li>
+    <header>
+        <!--navbar section-->
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="/index.html" id="navbar-logo">Odin Recipes</a>
+    <ul class="navbar-menu">
+        <li class="navbar-item"><a class="link-item" id="lasagna" href="/recipes/lasagna.html">Lasagna</a></li>
+        <li class="navbar-item"><a class="link-item" id="burger" href="/recipes/burger.html">Burger</a></li>
+        <li class="navbar-item"><a class="link-item" id="iceCream" href="/recipes/iceCream.html">Ice Cream</a></li>
     </ul>
+           </div>
+        </nav>
+    </header>
+
+    <!--body section-->
+    <div class="body-container">
+        <img  class="image-cat" src="/recipes/img/cat.jpg" alt="Cat">
+    </div>
 </body>
 </html>
